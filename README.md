@@ -12,7 +12,7 @@ This project predicts short-term stock price direction (UP / DOWN) using:
 
 🔹 1. Project Objective
 
-The goal of this project is to:
+   The goal of this project is to:
 
 1. Analyze historical stock price data
 
@@ -25,5 +25,26 @@ The goal of this project is to:
 5. Simulate a simple trading strategy
 
 6. Predict today's market direction
+
+| Library           | Purpose                         |
+| ----------------- | ------------------------------- |
+| `pandas`          | Data manipulation               |
+| `matplotlib`      | Data visualization              |
+| `yfinance`        | Download stock market data      |
+| `yahoofinancials` | Financial data handling         |
+| `ta`              | Technical indicators (RSI, CCI) |
+| `numpy`           | Numerical operations            |
+| `scikit-learn`    | Machine Learning                |
+| `MLPClassifier`   | Neural Network model            |
+
+🔹 3. Stock Data Download
+df = yf.download('TSLA', start='2016-01-01', end=date.today())
+✔ Downloads Tesla (TSLA) stock data from 2016 to today
+✔ Columns include:
+Open
+High
+Low
+Close
+Volume
 
 
