@@ -204,4 +204,8 @@ Predict Today’s Market Direction
 | Backtesting        | Testing strategy on past data       |
 | Strategy Returns   | Profit or loss from trades          |
 
+using steamlit we can make better interface too!!
 
+<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/2b8df7d3-0b4c-46bc-b33b-01e37892e904" />
+
+<img width="1920" height="1080" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/9ae354b4-4c28-4d3f-972f-c7215e01a933" />
